@@ -1,0 +1,92 @@
+header img {
+  width: 50px;
+  height: auto;
+  transition: all .2s ease; }
+  header img:hover {
+    transform: scale(1.1);
+    margin-right: .2rem; }
+header nav {
+  background-color: #304f50 !important;
+  border-bottom: 8px solid #5d9b9d;
+  transition: all .2s ease; }
+  header nav:hover {
+    border-bottom: 10px solid #5d9b9d; }
+header li a {
+  font-size: 1.1rem;
+  color: #bfbfbf !important;
+  transition: all .2s ease-in; }
+  header li a:hover {
+    margin: 2px 0 0 1px; }
+
+.showCase {
+  width: 100%;
+  color: white; }
+  .showCase .showCase--bg {
+    background-image: linear-gradient(to bottom, #0099cc, rgba(76, 126, 128, 0.5)), url(../../images/mountains.jpg);
+    width: 100%;
+    background-position: top center;
+    background-size: cover;
+    height: 100%; }
+  .showCase .showCase--text {
+    margin-top: 100px;
+    padding: .5rem; }
+    .showCase .showCase--text p {
+      font-size: 1.4rem; }
+  .showCase--img {
+    width: 100%;
+    text-align: center; }
+    .showCase--img img {
+      width: 400px; }
+
+.newsletter {
+  width: 100%;
+  background-color: #304f50;
+  padding: 1.4rem; }
+  .newsletter__form {
+    width: 100%;
+    display: flex;
+    margin: 0;
+    justify-content: center; }
+
+.benefits {
+  margin-top: 50px; }
+
+.about {
+  margin-top: 100px; }
+  .about .info-header {
+    width: 70%;
+    margin: 0 auto; }
+  .about #accordion {
+    text-align: center; }
+  .about h5 {
+    cursor: pointer; }
+
+.fa {
+  font-size: 2rem; }
+
+#authors .card:hover {
+  background-color: black;
+  color: white; }
+
+.card:hover ~ .text-muted {
+  color: white !important; }
+
+button {
+  transition: all .2s ease-in; }
+  button:active {
+    transform: scale(1.1);
+    border: 2px inset #304f50 !important; }
+  button:focus {
+    outline: none; }
+
+* {
+  box-sizing: inherit; }
+
+html {
+  font-size: 14px; }
+
+body {
+  box-sizing: border-box;
+  overflow-x: hidden; }
+
+/*# sourceMappingURL=style.css.map */
