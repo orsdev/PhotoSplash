@@ -40,6 +40,30 @@ input[type='search'] {
   font-size: 2rem;
   color: white; }
 
+.buttons {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 1rem; }
+  .buttons button {
+    background-color: dodgerblue;
+    color: white;
+    padding: .3rem 1.3rem;
+    border-radius: .4rem;
+    transition: transform .3s ease;
+    font-size: 1.4rem;
+    outline: none;
+    border: none;
+    width: 50px; }
+    .buttons button:not(:last-child) {
+      margin-right: 40px; }
+    .buttons button:hover {
+      background-color: #007cf4; }
+  .buttons .prev:active,
+  .buttons .next:active {
+    transform: scale(1.1); }
+
 .gallery {
   background-color: darkcyan;
   grid-column: full-start / full-end;
