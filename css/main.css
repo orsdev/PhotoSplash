@@ -41,15 +41,14 @@ input[type='search'] {
   color: white; }
 
 .buttons {
-  margin-top: 10px;
-  margin-bottom: 20px;
   box-sizing: border-box;
   text-align: center;
-  padding: 1rem; }
+  padding: 1.4rem;
+  background-color: darkcyan; }
   .buttons button {
-    background-color: dodgerblue;
+    background-color: orangered;
     color: white;
-    padding: .3rem 1.3rem;
+    padding: .4rem 1.3rem;
     border-radius: .4rem;
     transition: transform .3s ease;
     font-size: 1.4rem;
@@ -59,18 +58,25 @@ input[type='search'] {
     .buttons button:not(:last-child) {
       margin-right: 40px; }
     .buttons button:hover {
-      background-color: #007cf4; }
+      background-color: #d63a00; }
   .buttons .prev:active,
   .buttons .next:active {
     transform: scale(1.1); }
 
+.container {
+  width: 90%;
+  margin: 10px auto;
+  margin-top: 0; }
+
 .gallery {
   background-color: darkcyan;
   grid-column: full-start / full-end;
-  display: grid !important;
+  display: grid;
   grid-template: repeat(7, 5vw)/repeat(8, 1fr);
   grid-gap: 1.5rem;
-  padding: 1.5rem; }
+  box-sizing: border-box;
+  padding: 1rem;
+  width: 100%; }
   .gallery__item--0 {
     grid-row: 1 / span 2;
     grid-column: 1 / span 2; }
