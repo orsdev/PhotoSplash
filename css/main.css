@@ -69,7 +69,16 @@ input[type='search'] {
 .container {
   width: 90%;
   margin: 10px auto;
-  margin-top: 0; }
+	margin-top: 0; }
+	
+	.spinner{
+		text-align: center;
+		padding: 1rem;
+	}
+
+.spinner img{
+	width: 110px;
+}
 
 .gallery {
   background-color: darkcyan;
