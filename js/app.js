@@ -39,8 +39,8 @@ $(document).ready(function () {
 				load(pageNumber);
 
 				setTimeout(function(){
-						//hide load spinner
-				//div.hide();
+			//hide load spinner
+				div.hide();
 				},1000)
 			
 
