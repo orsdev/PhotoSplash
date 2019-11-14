@@ -6,7 +6,7 @@ PhotoSplash
 
 ## About
 
-A simple image search webpage. This was the first version I did with pure Js, I built another one with 
+A simple image search webapp. This was the first version I did with pure Js, I built another one with 
 reactJs which is way cooler than this.
 
 ## Built With
@@ -17,6 +17,6 @@ reactJs which is way cooler than this.
 * Unsplash Api
 
 ## Preview Link
-	````
-	https://orsdev.github.io/PhotoSplash/
-	````
+````
+https://orsdev.github.io/PhotoSplash/
+````
