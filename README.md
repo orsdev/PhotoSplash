@@ -1,7 +1,7 @@
 # Project Title
 
 ````
-PhotoSplash
+### PhotoSplash
 ````
 
 ## About
@@ -17,6 +17,5 @@ reactJs which is way cooler than this.
 * Unsplash Api
 
 ## Preview Link
-````
 https://orsdev.github.io/PhotoSplash/
-````
+
